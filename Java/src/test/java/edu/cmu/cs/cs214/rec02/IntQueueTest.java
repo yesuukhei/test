@@ -121,7 +121,7 @@ public void testClear() {
     @Test
     public void testIsEmpty() {
         // This is an example unit test
-        assertFalse(mQueue.isEmpty());
+        assertTrue(mQueue.isEmpty());
 
     }
 
